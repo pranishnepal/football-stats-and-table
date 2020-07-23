@@ -1,0 +1,172 @@
+body{
+
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  left: 150px;
+  font-family: 'Nanum Myeongjo', serif;
+
+}
+
+#navBar{
+
+  width: 100%;
+  background-color:white;
+  height: 40px;
+
+}
+
+#clLogo{
+      margin-left: 47%;
+      padding-top: 6px;
+
+}
+
+#bplLogoBar{
+  background-color: #000d37;
+  width: 80%;
+
+}
+
+#menuBar{
+  background-color: black;
+  width: 80%;
+  height: 40px;
+  float: left;
+}
+
+#menuOptions{
+  background-color: black;
+  color: white;
+
+}
+.clearFloat{
+  clear: both;
+}
+
+#menuOptions a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  border: 1px solid white;
+  margin-left: 175px;
+  border-radius: 2px;
+  padding: 4px;
+
+
+}
+
+#menuOptions{
+  margin-top: 10px;
+
+}
+
+#compareStatsTab{
+  margin-left: 180px !important;
+}
+
+#menuOptions a:hover{
+
+  background-color: #008fd7;
+}
+
+#menuOptions a:active{
+  background-color: gray;
+}
+
+.mainContent{
+  width: 80%;
+  height: 800px;
+  background-color: #ededed;
+
+}
+
+.playerSearch1{
+
+  height: 60px;
+  position: relative;
+  left: 90px;
+
+}
+
+.p1p2Bar{
+  padding-top: 8px;
+  margin-left: 10px;
+}
+
+.searchBar{
+  height: 25px;
+  background-color: #1b001e;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 45%;
+  text-align: center;
+  color: white;
+
+
+}
+
+.submitButton{
+  height: 25px;
+  background-color: #1b001e;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  width: 70px;
+}
+
+
+.searchArea{
+  background-color: #ea287a;
+  height: 40px;
+
+
+}
+
+#rightBar{
+  position: relative;
+  left: -20px;
+
+}
+
+#tableL{
+  background-color: #000d37;
+  width: 60%;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 60px;
+  margin-top: 10px;
+
+}
+
+.textColor{
+  color: #9d9672;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#tableL td {
+  margin: 10px;
+  color: #9d9672;
+  border: 1px solid #dddddd;
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 4px;
+
+}
+
+
+#tableL tr:nth-child(even) {
+  background-color: #3a758c;
+  opacity: 100%;
+}
+
+#tableL tr{
+  margin-top: 10px;
+}
+
+#error{
+  
+}

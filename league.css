@@ -1,0 +1,131 @@
+body{
+
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  left: 150px;
+  font-family: 'Nanum Myeongjo', serif;
+
+
+}
+
+#navBar{
+
+  width: 100%;
+  background-color:white;
+  height: 40px;
+
+}
+
+#clLogo{
+      margin-left: 47%;
+      padding-top: 6px;
+
+}
+
+#bplLogoBar{
+  background-color: #000d37;
+  width: 80%;
+
+}
+
+#menuBar{
+  background-color: black;
+  width: 80%;
+  height: 40px;
+  float: left;
+}
+
+#menuOptions{
+  background-color: black;
+  color: white;
+
+}
+.clearFloat{
+  clear: both;
+}
+
+#menuOptions a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  border: 1px solid white;
+  margin-left: 175px;
+  border-radius: 2px;
+  padding: 4px;
+
+
+}
+
+#menuOptions{
+  margin-top: 10px;
+
+}
+
+#compareStatsTab{
+  margin-left: 180px !important;
+}
+
+
+#menuOptions a:hover{
+
+  background-color: #008fd7;
+}
+
+#menuOptions a:active{
+  background-color: gray;
+}
+
+#mainContent{
+  height: 600px;
+  width: 80%;
+  background-color: #37003c;
+}
+
+.searchArea{
+
+  background-color: #ea287a;
+  height: 40px;
+  position: relative;
+  bottom: 20px;
+
+}
+
+.searchArea p {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 7px;
+}
+
+
+#mainContent table {
+  color: white;
+  margin-left: 3%;
+
+
+}
+
+ td{
+  padding-right: 80px;
+  border: 1px solid black;
+  border-radius: 2px;
+  }
+
+  #tableHeader {
+    background-color: black;
+  }
+
+  .pl{
+    background-color: #660000;
+  }
+
+  .cl{
+    background-color: #000d3a;
+  }
+  .el{
+    background-color: #ef8504;
+  }
+  .rel {
+    background-color: #ba0c2f;
+  }

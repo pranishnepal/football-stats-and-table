@@ -1,0 +1,235 @@
+body{
+
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  left: 150px;
+  font-family: 'Nanum Myeongjo', serif;
+
+}
+
+#navBar{
+
+  width: 100%;
+  background-color:white;
+  height: 40px;
+
+}
+
+#clLogo{
+      margin-left: 47%;
+      padding-top: 6px;
+
+}
+
+#bplLogoBar{
+  background-color: #000d37;
+  width: 80%;
+
+}
+
+#menuBar{
+  background-color: black;
+  width: 80%;
+  height: 40px;
+  float: left;
+}
+
+#menuOptions{
+  background-color: black;
+  color: white;
+
+}
+.clearFloat{
+  clear: both;
+}
+
+#menuOptions a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  border: 1px solid white;
+  margin-left: 175px;
+  border-radius: 2px;
+  padding: 4px;
+
+
+}
+
+#menuOptions{
+  margin-top: 10px;
+
+}
+
+#compareStatsTab{
+  margin-left: 180px !important;
+}
+
+
+#menuOptions a:hover{
+
+  background-color: #008fd7;
+}
+
+#menuOptions a:active{
+  background-color: gray;
+}
+
+.mainContent{
+  width: 80%;
+  height: 800px;
+  background-color: #000d37;
+
+}
+
+.playerSearch{
+
+  height: 60px;
+  position: relative;
+  left: 90px;
+  width: 80%;
+
+}
+
+.p1p2Bar{
+  padding-top: 8px;
+  margin-left: 10px;
+}
+
+.searchBar{
+  height: 25px;
+  background-color: #1b001e;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  text-align: center;
+  color: white;
+
+}
+
+#enterPlayerNames{
+  float: left;
+  margin-top: 5px;
+  margin-left: -75px;
+  margin-right: 5px;
+
+}
+
+#searchBoxOne{
+  width: 35%;
+  float: left;
+
+}
+
+#searchBoxTwo{
+  float: right;
+  width: 35%;
+  position: relative;
+  left: -40px;
+}
+
+#playerTwoLabelvs{
+    position: relative;
+    left: 90px;
+    top: 3px;
+}
+
+#compareSubmit{
+  position: relative;
+  left: 450px;
+  top: 1px;
+}
+
+
+
+.submitButton{
+  height: 25px;
+  background-color: #1b001e;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  width: 70px;
+}
+
+
+.searchArea{
+  background-color: #ea287a;
+  height: 40px;
+
+}
+
+.tableArea{
+  background-color: #000d37;
+  width: 100%;
+  height: 600px;
+}
+
+#leftDiv{
+
+  width: 50%;
+  border: 1px solid #000d37;
+  height: 60%;
+  float: left;
+  padding-top: 10px;
+  margin-top: 30px;
+
+}
+
+#rightDiv{
+
+  width: 50%;
+
+  height: 62%;
+  float: right;
+  position: relative;
+  bottom: 62%;
+  left: 0.2%;
+  padding-top: 10px;
+
+}
+
+.textColor{
+  color: #9d9672;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#rightDiv td {
+
+  color: #9d9672;
+  border: 1px solid #dddddd;
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 4px;
+
+}
+
+#rightDiv tr:nth-child(even) {
+  background-color: #3a758c;
+  opacity: 100%;
+}
+
+
+#leftDiv td {
+
+  color: #9d9672;
+  border: 1px solid #dddddd;
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 4px;
+
+}
+
+#leftDiv tr:nth-child(even) {
+  background-color: #3a758c;
+  opacity: 100%;
+}
+
+
+#endingMessage{
+  position: relative;
+  left: -35%;
+  color: #9d9672;
+}
