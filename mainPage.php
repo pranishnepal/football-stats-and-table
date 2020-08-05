@@ -24,7 +24,7 @@
       $firstName = $playerName[0];
       $lastName = $playerName[1];
 
-      $urlAPI =  file_get_contents("https://apiv2.apifootball.com/?action=get_players&player_name=$lastName%$firstName&APIkey=12ed565a36b5792f2344e0dedebff072f3e7262e45f2f2681aa787ddff41a693");
+      $urlAPI =  file_get_contents("https://apiv2.apifootball.com/?action=get_players&player_name=$lastName%$firstName&APIkey=YOUR_API");
       $playerDataArray = json_decode($urlAPI, true);
 
       $number= $playerDataArray[0]['player_number'];
